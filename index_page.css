@@ -27,7 +27,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image:url(https://www.facebook.com/photo/?fbid=1967861547060885&set=pcb.1967861603727546);
+    background-image:url("https://www.facebook.com/photo/?fbid=1967861547060885&set=pcb.1967861603727546");
     z-index: -1;
     background-size: cover;
     background-position: center;
@@ -90,7 +90,7 @@ font-size: 4.5rem;
 }
 
 .bg1{
-  background-image: url(https://www.facebook.com/photo/?fbid=1975160912997615&set=a.180539209126470);
+  background-image: url("https://www.facebook.com/photo/?fbid=1975160912997615&set=a.180539209126470");
 }
 .bg2 {
   background-image: url("https://images.unsplash.com/photo-1552464717-70ffd59710bf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
