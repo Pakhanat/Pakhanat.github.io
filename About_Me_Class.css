@@ -1,74 +1,125 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0; /*ขอบบน - ล่าง*/
+    padding: 0; /*ขอบซ้าย - ขวา*/
     box-sizing: border-box;
 }
 
+.container{
+    max-width: 1140px; /*ขนาดความกว้าง*/
+    margin: 0 auto; /*บนเป็น 0, ซ้าย - ขวา Auto*/
+}
+
+/*Top-box path*/
 nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
+    padding: 1rem; /*ขอบบนล่าง ชนาด 1 Rrm*/
+    background-color: #48596B; /*สีพิ้นหลัง*/
 }
 
-.logo{
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    font-size: 18px;
+.nav-con{
+    display: flex; /*ทำให้ข้อความหรือภาพเรียงเป็นแนวนอนในบรรทัดเดียว*/
+    justify-content: space-between; /*แบ่ง Logo และ Manu ออกจากกัน*/
 }
 
+.logo a{
+    font-size: 2rem; /*ชนาดตัวอักษร 2 Rrm*/
+    color: #fff; /*อักษรเป็นสีขาว*/
+    text-decoration: none; /*ไม่ขีดเส้นใต้*/
+}
+
+/*Menu path*/
 .menu{
-    display: flex;
-    list-style: none;
+    display: flex; /*ทำให้ข้อความเรียงเป็นแนวนอน*/
+    list-style: none; /*ลบจุดหน้าข้อความ*/
+    align-items: center; /*ทำให้ข้อความอยู่ตรงกลาง*/
 }
 
-.menu li {
-    margin-left: 10px;
+.menu li{
+    margin: 0 1rem; /*ขอบบนล่างห่าง 0, ขอบข้างห่าง 1 rem*/
 }
 
-.menu li a {
-    text-decoration: none;
-    color: #333;
+.menu li a{
+    color: #fff; /*อักษรเป็นสีขาว*/
+    text-decoration: none; /*ทำให้ข้อความอยู่ตรงกลาง*/
+}
+/*Menu path*/
+/*Top-box path*/
+
+/*Main-box*/
+.maincontent{
+     background-color: #484F49; /*สีพื้นหลัง*/
 }
 
-.banner{
-    background-color: teal;
+.maincontent-con{
+    display: flex; /*ทำให้ข้อความหรือภาพเรียงเป็นแนวนอนในบรรทัดเดียว*/
+}
+
+.maincontent-info{
+    width: 70%; /*ความกว้าง 100%*/
+    margin: 2rem 0; /*ขอบบนล่างห่าง 2 rem, ขอบข้างห่าง 0*/
+}
+
+.maincontent-info h1{
     color: #fff;
-    height: 400px;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
+    font-size: 2.5rem; /*ขนาดอักษร [h1] 2.5 rem*/
 }
 
-.banner-info{
-    text-align: center;
+.maincontent-info p{
+    color: #fff;
+    font-size: 1.5rem; /*ขนาดอักษร [p] 1.5 rem*/
 }
 
-.banner-info img{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    display: block;
-    float: left;
-    margin-left: 200px;
-    margin-right: 70px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+.maincontent-img{
+    margin: 2rem 1rem; /*ขอบบนล่างห่าง 2 rem, ขอบข้างห่าง 1 rem*/
 }
 
-.main{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+.maincontent-img img{
+    width: 375px; /*ขนาดรูป 400 px*/
+}
+/*Main-box*/
+
+/*Introduction*/
+.introduction{
+    margin: 2rem 11.5rem;
 }
 
-.main div{
-    padding: 20px;
+.introduction p{
+    font-size: 1.5rem;
+}
+/*Introduction*/
+
+/*Topic*/
+.content-con{
+   display: grid; /*กำหนกหารเรียงเป็นแบบ Grid*/
+   grid-template-columns: 1.25fr 1fr; /*กำหนดขนาดและจำนวนคอลัมบ์*/
+   column-gap: 25px;/*กำหนดช่องว่างระหว่างคอลัมบ์*/
 }
 
-.main div p {
-    margin-top: 10px;
+.content-title{
+    margin: 2rem 0;
+    font-size: 2rem;
+    color: #fff;
 }
 
-.main img {
-    width: 100%;
+.content-item h4{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: #fff;
 }
 
+.content-item h5{
+    font-size: 1rem;
+    color: #fff;
+}
+
+.content-item p{
+    margin: 2rem 0;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.content-item img:hover{
+    transition: 0.3s;
+    transform: translateY(-10px);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+/*Topic*/
