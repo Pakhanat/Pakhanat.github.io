@@ -74,4 +74,10 @@ background-color: #484F49;
     width: 325px;
 }
 
+.main-picture img:hover{
+    transition: 0.3s;
+    transform: translateY(-10px);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
 /* main path */
