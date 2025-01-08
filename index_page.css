@@ -20,8 +20,6 @@
 .bg{
     width: 100%;
     height: 100%;
-    width: auto;
-    height: auto;
     position: relative;
 }
 
@@ -32,7 +30,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image:url("");
+    background-image:url("https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/468755106_1967861673727539_6220946463317017813_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH90GJm3ypusjhB0qAi9HUxOJICUWUMMo84kgJRZQwyj18f40R6RAtapVxR5kQ__UHQvuiDl-7voBhLMM7VmAcB&_nc_ohc=06UDYfocanYQ7kNvgG1NoJ0&_nc_oc=Adjlh3PPoUH5kL85q9EfAIIQoz-Ib9FykkiKQeG33u7imdC-AHYzF0C1kxBPCxqZJhl934m73YAqMCZyYSgOFfae&_nc_zt=23&_nc_ht=scontent.fbkk28-1.fna&_nc_gid=A93NmAyTBE_w8-vZWLJ7E9O&oh=00_AYBvCEy1rgj_hTOiHjMLujui2U1YDetx795tPE59F_Y_Xg&oe=67848CE0");
     z-index: -1;
     background-size: cover;
     background-position: center;
