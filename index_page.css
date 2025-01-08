@@ -20,6 +20,12 @@
     position: relative;
 }
 
+.bg{
+    max-width: 360px;
+    height: 100%;
+    position: relative;
+}
+
 .bg::after{
     content:"";
     position: absolute;
