@@ -24,7 +24,7 @@
 }
 
 .bg::after{
-    content:"";
+    content:"frontPic.jpg";
     position: absolute;
     top: 0;
     left: 0;
