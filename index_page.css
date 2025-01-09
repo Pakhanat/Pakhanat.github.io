@@ -46,7 +46,7 @@
 
 .logo a{
     font-size: 2rem;
-    color: #fff;
+/*     color: #fff; */
 }
 
 .content{
@@ -65,7 +65,7 @@ display: flex;
 }
 
 .content .header{
-    color: #fff;
+    color: #000;
     padding: 20px;
 }
 
