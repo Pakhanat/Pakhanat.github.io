@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-/// Mobie phone screen size ///
-@media only screen and (max-width:320px) {
 .container{
     max-width: 1140px; /*ขนาดความกว้าง*/
     margin: 0 auto; /*บนเป็น 0, ซ้าย - ขวา Auto*/
@@ -83,4 +81,3 @@ background-color: #484F49;
 }
 /* main path */
 
-}
